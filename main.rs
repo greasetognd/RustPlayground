@@ -3,7 +3,7 @@ use std::io;
 fn main() {
     println!("Enter the first number:");
     let mut input1 = String::new();
-    io::stdin().read_line(&mut input1).unwrap();
+    io::stdin().read_line(&mut input1).unwrap(); // hai
     let num1: i32 = input1.trim().parse().unwrap();
 
     println!("Enter the second number:");
@@ -15,4 +15,5 @@ fn main() {
 
     println!();
     println!("{} x {} = {}", num1, num2, result);
+    println!();
 }
